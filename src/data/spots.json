@@ -1,0 +1,296 @@
+[
+  {
+    "slug": "tonosho-port",
+    "name": "土庄港",
+    "japaneseName": "土庄港",
+    "summary": "抵达小豆岛的第一站，也是高木同学巡礼最自然的开场。渡轮、候船楼、巴士站和海风能直接把观众带进土庄町。",
+    "description": "土庄港是小豆岛西侧的主要门户，连接高松、新冈山等方向的航线。对高木同学巡礼来说，它不仅是交通节点，也是情绪入口：从船上看到岛、走下渡轮、进入土庄町街区，这组画面很适合作为游记或短视频开头。土庄港周边还与作品联动信息点、巴士换乘和土庄町街景连接紧密，适合第一次来的人把它设为集合点和路线起点。",
+    "history": "土庄港长期承担小豆岛西部对外交通功能。随着小豆岛观光、濑户内海旅行和动画巡礼热度提高，港口也从单纯交通设施变成旅行者进入土庄町的第一印象。土庄町和小豆岛观光资料中多次把土庄港作为岛内行程和公共交通换乘的核心位置。",
+    "address": "香川県小豆郡土庄町甲6194-10 周边",
+    "access": "从高松港乘小豆岛フェリー到土庄港，通常约 60 分钟；从新冈山港也有到土庄港的航线。抵达后可换乘小豆岛橄榄巴士、出租车、租车或步行进入土庄町街区。",
+    "photoTime": "上午 9:00-10:30 适合拍抵达感；傍晚返程前适合拍夕光、渡轮和港口空镜。",
+    "bestPhotoTime": "晴天上午拍蓝色海面和船体，傍晚拍返程与故事收束。",
+    "firstVisitFriendly": true,
+    "photoTips": [
+      "拍“上岛三连”：船舱窗外海面、渡轮靠岸、土庄港标识。",
+      "用长焦压缩渡轮、海面和远处小镇，画面会更像旅行片开头。",
+      "港口巴士站、时刻表和候船楼适合做路线说明素材。"
+    ],
+    "recommendedShots": [
+      "船舱窗外的小豆岛轮廓",
+      "渡轮靠岸和旅客下船",
+      "土庄港标识与巴士站",
+      "傍晚离港时的海面"
+    ],
+    "cautions": [
+      "船班和巴士班次会随季节调整，出发前确认当天时刻表。",
+      "港口是交通设施，拍摄时不要挡住上下船通道和车流。",
+      "风大时收音容易炸，拍口播建议使用防风毛套。"
+    ],
+    "pilgrimageAdvice": "先在土庄港完成交通确认、资料领取和开场拍摄，再去土渊海峡或天使之路。时间紧时不要在港口停太久，把好光线留给海边路和天使之路。",
+    "animeConnection": "小豆岛观光协会资料提到，土庄港内设有“からかい上手の高木さん とのしょうBASE”等作品相关信息点；动画官方和土庄町也发布过舞台探访地图，土庄港适合作为巡礼起点。",
+    "videoAngles": [
+      "用“从船上看到小豆岛的第一眼”做开头。",
+      "拍港口到巴士站的无缝转场，做成第一次上岛交通教程。",
+      "把返程渡轮做成结尾，形成巡礼故事闭环。"
+    ],
+    "image": {
+      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonosho%20Port%20Shodo%20Island%20Kagawa%20Pref%20Japan01s3.jpg?width=900",
+      "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonosho%20Port%20Shodo%20Island%20Kagawa%20Pref%20Japan07s3.jpg?width=1600",
+      "alt": "小豆岛土庄港与港口建筑",
+      "caption": "土庄港是第一次上岛和巡礼开场最重要的交通节点。",
+      "credit": "Wikimedia Commons / 663highland",
+      "license": "CC BY 2.5 或 CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tonosho_Port_Shodo_Island_Kagawa_Pref_Japan01s3.jpg"
+    },
+    "tags": ["巡礼起点", "港口", "渡轮", "交通方便"],
+    "area": "土庄町",
+    "duration": "30-45 分钟",
+    "tips": "建议先在港口确认巴士时刻、潮汐和返程船班，再开始当天路线。"
+  },
+  {
+    "slug": "angel-road",
+    "name": "天使之路",
+    "japaneseName": "エンジェルロード",
+    "summary": "退潮时显现的海中沙洲，是小豆岛最有辨识度的海边景点，也非常适合作为巡礼视频的高潮段落。",
+    "description": "天使之路由潮汐控制，退潮时海中沙洲显现，连接弁天岛、中余岛、小余岛、大余岛一带。它的画面非常直观：海、沙洲、脚步、背影和远处小岛天然构成青春感镜头。对第一次来小豆岛的人来说，这是最容易“拍出到此一游价值”的地点。",
+    "history": "土庄町官方资料介绍，天使之路因潮汐而出现和消失，被称为神秘的沙之道路。当地也流传与重要的人牵手走过会实现愿望的说法，近年作为电影、电视剧和观光拍摄地被更多人知道。",
+    "address": "香川県小豆郡土庄町甲24-92 / 銀波浦周边",
+    "access": "从土庄港乘巴士约 10 分钟，也可出租车或租车前往。若拍摄任务重，建议按潮汐时间倒推行程。",
+    "photoTime": "退潮前后 1 小时最关键；晴天上午或傍晚光线更柔和，出发前务必查当天潮汐。",
+    "bestPhotoTime": "退潮刚开始显现沙洲时拍空镜，退潮稳定后拍人物背影和脚步。",
+    "firstVisitFriendly": true,
+    "photoTips": [
+      "先拍潮水退去后沙洲出现的建立镜头，再拍人物从岸边走向小岛。",
+      "低机位拍脚步、水纹和沙洲线条，适合剪成青春感过渡镜头。",
+      "从约束之丘展望台或岸边拍远景，能把“海中道路”的形状交代清楚。"
+    ],
+    "recommendedShots": [
+      "退潮时显现的沙洲全景",
+      "脚步踩过湿沙和水纹",
+      "两人背影走向小岛",
+      "约束之丘展望视角"
+    ],
+    "cautions": [
+      "满潮时无法完整步行通过，潮汐时间比普通景点开放时间更重要。",
+      "沙洲湿滑，拍摄时注意鞋子、防水袋和相机安全。",
+      "热门时段人多，避免长时间占据主要通道。"
+    ],
+    "pilgrimageAdvice": "把天使之路当作当天主节点，而不是顺路景点。先查潮汐，再决定半日路线的先后顺序；如果潮汐在下午，就把土庄町街景放到上午。",
+    "animeConnection": "官方舞台探访地图中曾出现エンジェルロード相关点位。即使不逐帧复刻，它也非常契合高木同学作品里的海边、距离感和青春氛围。",
+    "videoAngles": [
+      "做“退潮限定的动画感海边路”选题。",
+      "用潮水、脚步、背影和风声剪成 20 秒氛围短片。",
+      "拍摄从港口出发到沙洲显现的时间线，适合做攻略型视频。"
+    ],
+    "image": {
+      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Angel%20Road%20Shodo%20Island%20Japan01s3.jpg?width=900",
+      "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Angel%20Road%20Shodo%20Island%20Japan06bs3.jpg?width=1600",
+      "alt": "小豆岛天使之路退潮时出现的沙洲",
+      "caption": "天使之路会随潮汐出现和消失，拍摄前一定要确认当天潮汐。",
+      "credit": "Wikimedia Commons / 663highland",
+      "license": "CC BY 2.5 或 CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angel_Road_Shodo_Island_Japan01s3.jpg"
+    },
+    "tags": ["海边", "退潮限定", "经典景点", "第一次必去"],
+    "area": "土庄町",
+    "duration": "60-90 分钟",
+    "tips": "务必提前确认潮汐时间，满潮时无法完整走上沙洲。"
+  },
+  {
+    "slug": "seaside-road",
+    "name": "高木同学相关海边路/土庄町街景",
+    "japaneseName": "土庄町の海沿い道・町並み",
+    "summary": "不是单一景点，而是由海边道路、坡道、街角、学校周边和居民区边缘共同组成的“高木同学日常感”。",
+    "description": "高木同学的巡礼价值，很大一部分来自土庄町的日常街景：海边道路、坡道、窄街、反光镜、港口周边、学校附近和普通居民区。这些地方不一定都有醒目的观光标识，却最接近作品里的生活空气。第一版把它整理为区域型点位，后续应通过实地照片、官方探访地图和动画截图继续拆成具体坐标。",
+    "history": "土庄町位于小豆岛西北部，拥有港口、海峡、老街、神社和海边聚落等多层次风景。动画旅游协会和土庄町资料都把土庄町与《擅长捉弄人的高木同学》的舞台模型联系起来，作品里的“日常”正来自这些普通而具体的街景。",
+    "address": "香川県小豆郡土庄町甲・渕崎・鹿島周边海沿い道路与町内街景",
+    "access": "从土庄港出发，步行或搭乘巴士到鹿岛、渕崎、天使之路周边，再沿海边道路和街区慢慢取景。若时间紧，可租车或骑行，但真正拍摄时步行更容易发现画面。",
+    "photoTime": "下午 15:30-17:30 光线柔和，适合拍放学路感；清晨适合拍少人的街道空镜。",
+    "bestPhotoTime": "清晨拍空无一人的街道，傍晚拍海边路和人物背影。",
+    "firstVisitFriendly": true,
+    "photoTips": [
+      "多拍道路转角、海堤、反光镜、坡道、校外日常感空镜。",
+      "人物不要一直看镜头，背影、并肩走、回头笑更接近青春片氛围。",
+      "用 35mm 或手机 2x 焦段压缩街景，画面更像动画背景。"
+    ],
+    "recommendedShots": [
+      "海边道路的长直线构图",
+      "窄街转角和反光镜",
+      "坡道向下看见海",
+      "两人并肩走的背影"
+    ],
+    "cautions": [
+      "这是居民生活区域，避免拍摄住户门牌、室内和未授权人物特写。",
+      "道路狭窄处不要三脚架长时间占位。",
+      "高木同学具体取景点需结合官方地图和实地截图对比确认。"
+    ],
+    "pilgrimageAdvice": "不要把它当成一个点打卡，而是留 1-2 小时在土庄町慢慢走。最值得拍的是普通街角和海边道路，越像日常，越有高木同学的味道。",
+    "animeConnection": "动画官方曾发布土庄町舞台探访地图，土庄町也因《擅长捉弄人的高木同学》连续入选 Anime Tourism 88。街景巡礼应以官方地图、动画截图和实地照片三者交叉确认。",
+    "videoAngles": [
+      "做“我在小豆岛找高木同学的放学路”vlog。",
+      "用海边道路空镜 + 脚步声 + 风声做无旁白氛围片。",
+      "拍“动画感街景清单”：坡道、海堤、港口、神社、窄街。"
+    ],
+    "image": {
+      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Meiro-no-machi%20Tonosho%20Kagawa%20pref%20Japan01n.jpg?width=900",
+      "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Meiro-no-machi%20Tonosho%20Kagawa%20pref%20Japan05n.jpg?width=1600",
+      "alt": "土庄町迷路之町街景",
+      "caption": "土庄町街景图片用于代表巡礼区域；具体动画机位仍需实地补拍和截图对比。",
+      "credit": "Wikimedia Commons / 663highland",
+      "license": "CC BY 2.5 或 CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meiro-no-machi_Tonosho_Kagawa_pref_Japan01n.jpg"
+    },
+    "tags": ["高木同学", "海边路", "街景", "青春感"],
+    "area": "土庄町",
+    "duration": "60-120 分钟",
+    "tips": "把它当作区域巡礼，不要只追一个点；边走边拍更容易得到真实的小镇氛围。"
+  },
+  {
+    "slug": "olive-park",
+    "name": "小豆岛橄榄公园",
+    "japaneseName": "道の駅 小豆島オリーブ公園",
+    "summary": "白色希腊风车、橄榄树和濑户内海构成清爽画面，是一日路线里最适合做视频视觉换气的一站。",
+    "description": "小豆岛橄榄公园位于能俯瞰濑户内海的小高丘上，园内有约 2,000 棵橄榄树、希腊风车、橄榄纪念馆和香草花园。这里不一定是高木同学核心取景点，但它的明亮画面非常适合补足旅游网站质感：蓝天、白色风车、草坡和海景能让巡礼路线从土庄町日常感延展到小豆岛整体旅行感。",
+    "history": "小豆岛是日本橄榄栽培的重要地区之一，橄榄公园以橄榄文化、地中海风景和道之驿功能为核心。官方资料介绍，园内可以接触橄榄历史、香草和濑户内海景观，是小豆岛代表性旅游设施。",
+    "address": "香川県小豆郡小豆島町西村甲1941-1",
+    "access": "从土庄港乘小豆岛橄榄巴士，在“オリーブ公園口”下车后步行约 5-7 分钟，或在“サン・オリーブ”下车。租车从土庄港出发通常约 25-30 分钟。",
+    "photoTime": "上午 10:00-12:00 拍清爽蓝天；晴天下午适合拍风车、草坡和海景。",
+    "bestPhotoTime": "晴天上午拍风车与蓝天，下午拍人物与海景平台。",
+    "firstVisitFriendly": true,
+    "photoTips": [
+      "以白色风车为主视觉，人物站远一点，留出天空和草坡。",
+      "拍橄榄树叶、纪念品、海景平台作为旅行 vlog 细节。",
+      "明亮场景适合做视频封面，人物服装建议浅色或蓝白色系。"
+    ],
+    "recommendedShots": [
+      "白色希腊风车全景",
+      "草坡上走动或回头",
+      "橄榄叶和纪念品特写",
+      "海景平台广角"
+    ],
+    "cautions": [
+      "晴天紫外线强，注意防晒和补水。",
+      "热门拍照点可能排队，留出机动时间。",
+      "从土庄町移动过来需要交通时间，不建议半日路线硬塞。"
+    ],
+    "pilgrimageAdvice": "如果只做高木同学核心巡礼，橄榄公园不是第一优先；如果要做“可上线旅游攻略”或短视频，它非常适合作为一日路线中段的画面提升点。",
+    "animeConnection": "部分粉丝巡礼资料会把橄榄公园纳入小豆岛整体行程，尤其适合与土庄町巡礼组合成完整旅游路线。需要注意：它更偏小豆岛旅行补充点，而不是所有版本都确认的核心动画场景。",
+    "videoAngles": [
+      "做“高木同学巡礼之外，小豆岛最清爽的一站”。",
+      "用风车远景、草坡奔跑、海景空镜做节奏明快的中段。",
+      "拍从海边小镇到橄榄公园的颜色变化，增强视频层次。"
+    ],
+    "image": {
+      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Shodoshima%20Greek%20Windmill.jpg?width=900",
+      "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Shodoshima%20Olive%20Park%20Kagawa%20prefecture%20Wikivoyage%20banner.jpg?width=1600",
+      "alt": "小豆岛橄榄公园的希腊风车",
+      "caption": "橄榄公园的风车和海景适合做首页视觉与路线中段转场。",
+      "credit": "Wikimedia Commons / Photos of Japan 等",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shodoshima_Greek_Windmill.jpg"
+    },
+    "tags": ["风车", "橄榄", "海景", "清爽"],
+    "area": "小豆岛町",
+    "duration": "60-120 分钟",
+    "tips": "更适合一日或两日路线；半日路线优先留给土庄町和天使之路。"
+  },
+  {
+    "slug": "kashima-myojin-shrine",
+    "name": "鹿岛明神社",
+    "japaneseName": "鹿島明神社",
+    "summary": "土庄町鹿岛一带的安静神社点位，适合补充鸟居、树影、参道和小镇日常层次。",
+    "description": "鹿岛明神社相比天使之路和土庄港更安静，适合放在一日或两日路线里作为情绪缓冲。它能提供鸟居、参道、石阶、树影和参拜动作等画面，让巡礼内容从海边明亮感切换到小镇静谧感。当前公开可用图片较少，建议后续实地补拍神社入口、参道和周边街道。",
+    "history": "鹿岛明神社属于土庄町鹿岛周边的地域信仰空间，具体沿革公开资料较分散。对巡礼网站来说，更适合作为“土庄町生活感与神社氛围”的地点，而不是过度包装成大型观光景点。",
+    "address": "香川県小豆郡土庄町甲鹿島周边",
+    "access": "从土庄港可搭乘巴士或出租车到鹿岛一带，再步行前往；也可与海边路、天使之路安排在同一区域慢慢走。",
+    "photoTime": "上午 8:30-10:00 人少光线干净；下午 16:00 后树影更柔和。",
+    "bestPhotoTime": "清晨和傍晚拍参道树影，避开正午强光。",
+    "firstVisitFriendly": false,
+    "photoTips": [
+      "拍鸟居或参道时保持画面简洁，适合做安静过渡镜头。",
+      "用树影、石阶、手部参拜动作连接海边素材。",
+      "人物可以从画面边缘走入，不要过度摆拍。"
+    ],
+    "recommendedShots": [
+      "鸟居正面或斜侧构图",
+      "参道脚步和树影",
+      "手部参拜动作",
+      "神社外安静街角"
+    ],
+    "cautions": [
+      "神社区域请保持安静，参拜优先于拍摄。",
+      "不要拍摄不适合公开的居民区域和私人空间。",
+      "具体入口、可拍范围和动画对应关系建议实地确认。"
+    ],
+    "pilgrimageAdvice": "第一次半日游可先跳过；一日以上建议加入，用它来丰富视频节奏。拍摄时要克制，不要把神社当作摆拍场地。",
+    "animeConnection": "Anime Tourism 88 的土庄町介绍中提到鹿岛明神社可与作品世界和土庄町魅力一同感受。具体集数和镜头需要结合官方探访地图与实地核对。",
+    "videoAngles": [
+      "做“海边小镇里安静的一分钟”。",
+      "用神社树影缓和视频节奏，放在天使之路之后。",
+      "拍参道脚步声和环境声，适合做无旁白段落。"
+    ],
+    "image": {
+      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonosho%20townscape%20ac%20%281%29.jpg?width=900",
+      "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonosh%C5%8D%2C%20Kagawa.jpg?width=1600",
+      "alt": "土庄町街景代表图",
+      "caption": "当前使用土庄町代表图片暂代鹿岛明神社，后续需要实地补拍神社照片。",
+      "credit": "Wikimedia Commons",
+      "license": "Commons 可公开授权图片，具体以文件页为准",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Geography_of_Tonosho,_Kagawa"
+    },
+    "tags": ["神社", "鸟居", "安静", "小镇"],
+    "area": "土庄町",
+    "duration": "30-45 分钟",
+    "tips": "适合一日或两日路线中作为安静补充点；第一次半日游可视时间取舍。"
+  },
+  {
+    "slug": "dofuchi-strait",
+    "name": "土渊海峡",
+    "japaneseName": "土渕海峡",
+    "summary": "以世界最窄海峡闻名，离土庄港不远，适合安排在半日路线里做轻量地标打卡。",
+    "description": "土渊海峡位于小豆岛本岛和前岛之间，水道狭窄、步行可轻松跨越。它不像天使之路那样强情绪，但作为“信息型景点”非常适合攻略网站：离港口近、停留时间短、故事点清楚，还能让路线看起来更完整。",
+    "history": "土庄町官方资料介绍，土渊海峡最窄处 9.93 米，1996 年被吉尼斯认定为“世界上最狭窄的海峡”。土庄町役场可发行横断证明书，这让它从普通水道变成了有记忆点的旅行打卡。",
+    "address": "香川県小豆郡土庄町甲559-2",
+    "access": "从土庄港开车约 5 分钟，路線バス约 8 分钟到土庄本町下车；步行或骑行也可与土庄町街景一起安排。",
+    "photoTime": "中午前后或返程前顺路拍摄；阴天也能作为信息型打卡点。",
+    "bestPhotoTime": "不强依赖光线，适合插在路线空档；晴天可拍水面反光。",
+    "firstVisitFriendly": true,
+    "photoTips": [
+      "拍海峡标识、桥面和窄水道，重点交代“世界最窄海峡”的信息。",
+      "用地图截图或手绘路线叠加，适合做攻略视频解释段。",
+      "人物站在桥上远景即可，不必为了画面冒险靠近水边。"
+    ],
+    "recommendedShots": [
+      "永代桥附近窄水道",
+      "土渊海峡标识",
+      "桥上俯拍水面",
+      "从土庄港步行来的路牌"
+    ],
+    "cautions": [
+      "注意桥上车辆和行人通行，不要在路中间停留拍摄。",
+      "信息型景点停留时间不用太长，避免影响主线行程。",
+      "横断证明书等体验项目，出发前确认当地开放情况。"
+    ],
+    "pilgrimageAdvice": "把它放在土庄港和土庄町街景之间最顺。视频里用 5-8 秒交代即可，不要让它抢掉天使之路和海边路的篇幅。",
+    "animeConnection": "Anime Tourism 88 的土庄町介绍中提到土渊海峡也曾在动画相关语境中出现。它适合作为高木同学巡礼里的“土庄町地标补充点”。",
+    "videoAngles": [
+      "做“世界最窄海峡居然在小豆岛”的知识点短视频。",
+      "作为半日路线中的节奏点，用 5-8 秒快速交代。",
+      "拍从港口步行到土渊海峡的路牌，适合路线教程。"
+    ],
+    "image": {
+      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Dofuchi%20Strait%20ac%20%282%29.jpg?width=900",
+      "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Dofuchi%20Strait.jpg?width=1600",
+      "alt": "香川县土庄町土渊海峡",
+      "caption": "土渊海峡最窄处约 9.93 米，是土庄町非常轻量的地标打卡。",
+      "credit": "Wikimedia Commons / Kotaro、Asturio Cantabrio 等",
+      "license": "Commons 可公开授权图片，具体以文件页为准",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Dofuchi_Strait"
+    },
+    "tags": ["轻量打卡", "近港口", "地标", "散步"],
+    "area": "土庄町",
+    "duration": "20-30 分钟",
+    "tips": "适合和土庄港、周边街道一起安排，不建议为它单独绕远。"
+  }
+]

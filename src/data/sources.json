@@ -1,0 +1,87 @@
+[
+  {
+    "title": "小豆島観光協会：小豆岛官方观光信息",
+    "url": "https://shodoshima.or.jp/",
+    "note": "用于核对小豆岛整体观光、模型路线、潮汐入口、土庄町与岛内旅行信息。"
+  },
+  {
+    "title": "小豆島観光協会：エンジェルロード",
+    "url": "https://shodoshima.or.jp/sightseeing/detail.php?id=139",
+    "note": "用于核对天使之路地址、土庄港出发交通和停车等基础信息。"
+  },
+  {
+    "title": "土庄町官方网站：エンジェルロード",
+    "url": "https://www.town.tonosho.kagawa.jp/gyosei/soshiki/shoko/4/3/172.html",
+    "note": "用于核对天使之路潮汐、余岛说明、约束之丘展望台和观光介绍。"
+  },
+  {
+    "title": "土庄町官方网站：土渕海峡",
+    "url": "https://www.town.tonosho.kagawa.jp/kanko/sightseeing/581.html",
+    "note": "用于核对土渊海峡最窄处 9.93 米、吉尼斯认定、地址、停车与交通信息。"
+  },
+  {
+    "title": "道の駅 小豆島オリーブ公園 官方网站",
+    "url": "https://www.olive-pk.jp/about/index.html",
+    "note": "用于核对橄榄公园约 2,000 棵橄榄树、希腊风车、香草花园和交通信息。"
+  },
+  {
+    "title": "小豆島オリーブ公園：路线巴士说明",
+    "url": "https://www.olive-pk.jp/bus/index.html",
+    "note": "用于核对橄榄公园口、サン・オリーブ等巴士下车点。"
+  },
+  {
+    "title": "小豆島フェリー：高松－小豆岛土庄航线",
+    "url": "https://www.shikokuferry.com/route2",
+    "note": "用于核对高松港至土庄港航线、约 60 分钟船程和船班注意事项。"
+  },
+  {
+    "title": "小豆島オリーブバス：时刻表",
+    "url": "https://www.shodoshima-olive-bus.com/dia/",
+    "note": "用于核对岛内巴士路线和班次入口。实际出行请以当天时刻表为准。"
+  },
+  {
+    "title": "TV 动画《擅长捉弄人的高木同学》官方：舞台探访地图公开",
+    "url": "https://takagi3.me/1st/news/20180717_01.php",
+    "note": "用于核对动画官方曾发布小豆岛土庄町舞台探访地图这一事实。"
+  },
+  {
+    "title": "TV 动画《擅长捉弄人的高木同学》舞台探访地图 PDF",
+    "url": "https://takagi3.me/1st/news/images/map.pdf",
+    "note": "用于核对第一季相关舞台探访点线索；具体机位仍需结合实地和截图复核。"
+  },
+  {
+    "title": "土庄町：高木同学 3 联动企划",
+    "url": "https://www.town.tonosho.kagawa.jp/gyosei/soshiki/shoko/4/4/2187.html",
+    "note": "用于核对土庄町制作舞台探访地图、联动商品和本地企划。"
+  },
+  {
+    "title": "Anime Tourism 88：からかい上手の高木さん３",
+    "url": "https://animetourism88.com/places/%E3%81%8B%E3%82%89%E3%81%8B%E3%81%84%E4%B8%8A%E6%89%8B%E3%81%AE%E9%AB%98%E6%9C%A8%E3%81%95%E3%82%93%EF%BC%93/",
+    "note": "用于核对土庄町与高木同学动画旅游语境、鹿岛明神社和土渊海峡等地点的关联说明。"
+  },
+  {
+    "title": "Wikimedia Commons：Angel Road (Tonosho)",
+    "url": "https://commons.wikimedia.org/wiki/Category:Angel_Road_(Tonosho)",
+    "note": "用于天使之路缩略图和头图来源。使用前应按文件页要求署名并核对许可证。"
+  },
+  {
+    "title": "Wikimedia Commons：Tonosho Port",
+    "url": "https://commons.wikimedia.org/wiki/File:Tonosho_Port_Shodo_Island_Kagawa_Pref_Japan01s3.jpg",
+    "note": "用于土庄港图片来源。使用前应按文件页要求署名并核对许可证。"
+  },
+  {
+    "title": "Wikimedia Commons：Shodoshima Olive Park",
+    "url": "https://commons.wikimedia.org/wiki/Category:Shodoshima_Olive_Park",
+    "note": "用于小豆岛橄榄公园图片来源。使用前应按文件页要求署名并核对许可证。"
+  },
+  {
+    "title": "Wikimedia Commons：Dofuchi Strait",
+    "url": "https://commons.wikimedia.org/wiki/Category:Dofuchi_Strait",
+    "note": "用于土渊海峡图片来源。使用前应按文件页要求署名并核对许可证。"
+  },
+  {
+    "title": "Wikimedia Commons：Meiro-no-machi / Tonosho townscape",
+    "url": "https://commons.wikimedia.org/wiki/Category:Meiro-no-machi_(Tonosho)",
+    "note": "用于土庄町街景代表图。具体高木同学机位需要后续实地补拍。"
+  }
+]
