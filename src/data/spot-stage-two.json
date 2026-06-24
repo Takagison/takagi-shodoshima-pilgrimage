@@ -4,6 +4,7 @@
     "animeRelevance": 4,
     "recommendedSeasons": ["春", "夏", "秋"],
     "recommendedStay": "30-45 分钟",
+    "transportSummary": "渡轮 + 巴士/步行",
     "visitValue": "土庄港是进入高木同学小豆岛巡礼的情绪起点，适合拍“抵达动画舞台”的开场素材，也方便衔接巴士、街景和天使之路。",
     "sceneComparisons": [
       {
@@ -18,6 +19,7 @@
     "animeRelevance": 4,
     "recommendedSeasons": ["春", "夏"],
     "recommendedStay": "60-90 分钟",
+    "transportSummary": "巴士/出租车 + 步行",
     "visitValue": "天使之路不是普通景点式打卡，而是非常适合承载“海边、距离感、青春感”的画面高潮。退潮时间合适时，值得作为当天主目标。",
     "sceneComparisons": [
       {
@@ -32,6 +34,7 @@
     "animeRelevance": 5,
     "recommendedSeasons": ["春", "夏", "秋"],
     "recommendedStay": "60-120 分钟",
+    "transportSummary": "步行/骑行慢巡",
     "visitValue": "这是全站最接近“高木同学日常感”的区域型地点。不要只把它当成旅游点，而要慢慢找海边路、坡道、转角和放学路的空气感。",
     "sceneComparisons": [
       {
@@ -51,6 +54,7 @@
     "animeRelevance": 2,
     "recommendedSeasons": ["春", "夏", "秋"],
     "recommendedStay": "60-120 分钟",
+    "transportSummary": "巴士/租车",
     "visitValue": "橄榄公园更偏小豆岛旅行补充点，不是高木同学核心机位，但能让巡礼视频有明亮、开阔、夏天的视觉换气。",
     "sceneComparisons": [
       {
@@ -65,6 +69,7 @@
     "animeRelevance": 3,
     "recommendedSeasons": ["春", "夏", "秋"],
     "recommendedStay": "30-45 分钟",
+    "transportSummary": "巴士/出租车 + 步行",
     "visitValue": "鹿岛明神社适合补足小镇安静的一面，让路线从海边明亮感切换到树影、参道和神社氛围。",
     "sceneComparisons": [
       {
@@ -79,6 +84,7 @@
     "animeRelevance": 3,
     "recommendedSeasons": ["春", "夏", "秋", "冬"],
     "recommendedStay": "20-30 分钟",
+    "transportSummary": "港口周边步行/巴士",
     "visitValue": "土渊海峡适合作为土庄町地标补充点，停留时间短，但能让巡礼路线更有地域识别度。",
     "sceneComparisons": [
       {

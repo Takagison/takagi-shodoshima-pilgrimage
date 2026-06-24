@@ -79,7 +79,7 @@ export default async function SpotDetailPage({
             />
             <DetailBadge label="推荐季节" value={stage.recommendedSeasons.join("、")} />
             <DetailBadge label="推荐停留" value={stage.recommendedStay} />
-            <DetailBadge label="交通方式" value={spot.area} />
+            <DetailBadge label="交通方式" value={stage.transportSummary} />
           </div>
           <h2 className="text-2xl font-black text-slate-900">打卡说明</h2>
           <p className="mt-4 leading-8 text-slate-600">{spot.description}</p>
