@@ -2,191 +2,111 @@
   {
     "id": "angel-road",
     "name": "天使之路",
-    "japaneseName": "エンジェルロード",
-    "episode": "待补充：上传截图后填写季数、集数与时间码",
-    "sceneIntro": "退潮时出现的海中沙洲，适合作为海边青春感和巡礼高潮画面。后续可对照动画中的海边道路、背影和远景镜头。",
-    "animeImage": {
-      "src": "/images/comparison/angel-road/anime-placeholder.svg",
-      "alt": "天使之路动漫截图占位图"
-    },
-    "realityImage": {
-      "src": "/images/comparison/angel-road/reality.jpg",
-      "alt": "天使之路现实照片",
-      "credit": "Wikimedia Commons / 663highland",
-      "license": "CC BY 2.5 或 CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angel_Road_Shodo_Island_Japan06bs3.jpg"
-    },
-    "mapsQuery": "Angel Road Shodoshima Kagawa"
+    "englishName": "Angel Road",
+    "season": "第1季",
+    "episode": "第1集",
+    "episodeTitle": "初次见面",
+    "time": "04:26 左右",
+    "description": "高木带西片来到小豆岛，一起走在连接岛屿的沙滩路上。",
+    "animeImage": "/images/comparison/angel-road/anime.jpg"
   },
   {
-    "id": "kashima-myojin-shrine",
+    "id": "kashima-shrine",
     "name": "鹿岛明神社",
-    "japaneseName": "鹿島明神社",
-    "episode": "待补充：上传截图后填写季数、集数与时间码",
-    "sceneIntro": "安静神社、鸟居、参道和树影适合承载小镇日常段落。建议后续补真实入口与参道机位。",
-    "animeImage": {
-      "src": "/images/comparison/kashima-shrine/anime-placeholder.svg",
-      "alt": "鹿岛明神社动漫截图占位图"
-    },
-    "realityImage": {
-      "src": "/images/comparison/kashima-shrine/reality.svg",
-      "alt": "鹿岛明神社现实照片占位图",
-      "credit": "占位图",
-      "license": "待补充实拍或可公开授权照片",
-      "sourceUrl": ""
-    },
-    "mapsQuery": "鹿島明神社 土庄町"
+    "englishName": "Kashima Shrine",
+    "season": "第1季",
+    "episode": "第5集",
+    "episodeTitle": "雨宿り",
+    "time": "08:15 左右",
+    "description": "两人躲雨的神社，后来在这里换衣服。",
+    "animeImage": "/images/comparison/kashima-shrine/anime.jpg"
   },
   {
-    "id": "tomioka-hachimangu-shrine",
-    "name": "富冈八幡神社",
-    "japaneseName": "富岡八幡神社",
-    "episode": "待补充：上传截图后填写季数、集数与时间码",
-    "sceneIntro": "神社类场景适合做静态对照与参道构图。具体动画关联、入口方向和机位需用截图与实地照片确认。",
-    "animeImage": {
-      "src": "/images/comparison/hachiman-shrine/anime-placeholder.svg",
-      "alt": "富冈八幡神社动漫截图占位图"
-    },
-    "realityImage": {
-      "src": "/images/comparison/hachiman-shrine/reality.jpg",
-      "alt": "富冈八幡神社参道现实照片",
-      "credit": "Wikimedia Commons",
-      "license": "Commons 授权，使用前请以文件页为准",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomioka-Jinjya_Sandou.jpg"
-    },
-    "mapsQuery": "富岡八幡神社 土庄町"
+    "id": "hachiman-shrine",
+    "name": "富丘八幡神社",
+    "englishName": "Tomioka Hachimangu Shrine",
+    "season": "第1季",
+    "episode": "第9集",
+    "episodeTitle": "ケータイ（手机）",
+    "time": "16:30 左右",
+    "description": "高木和西片在神社的石阶上，一起看风景、聊天。",
+    "animeImage": "/images/comparison/hachiman-shrine/anime.jpg"
   },
   {
-    "id": "tonosho-library",
+    "id": "library",
     "name": "土庄中央图书馆",
-    "japaneseName": "土庄町立中央図書館",
-    "episode": "待补充：上传截图后填写季数、集数与时间码",
-    "sceneIntro": "适合记录学习、借书、街区公共设施相关场景。后续应补建筑外观、入口和周边道路照片。",
-    "animeImage": {
-      "src": "/images/comparison/library/anime-placeholder.svg",
-      "alt": "土庄中央图书馆动漫截图占位图"
-    },
-    "realityImage": {
-      "src": "/images/comparison/library/reality.jpg",
-      "alt": "土庄中央图书馆现实照片",
-      "credit": "Wikimedia Commons",
-      "license": "Commons 授权，使用前请以文件页为准",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tonosho_Town_Central_Library_ac_(1).jpg"
-    },
-    "mapsQuery": "土庄町立中央図書館"
+    "englishName": "Tonosho Central Library",
+    "season": "第2季",
+    "episode": "第1集",
+    "episodeTitle": "暑假开始了",
+    "time": "05:10 左右",
+    "description": "两人一起去图书馆，高木捉弄西片的开场场景。",
+    "animeImage": "/images/comparison/library/anime.jpg"
   },
   {
     "id": "kotobuki-bookstore",
     "name": "Kotobuki书店",
-    "japaneseName": "ことぶき書店",
-    "episode": "待补充：上传截图后填写季数、集数与时间码",
-    "sceneIntro": "书店类地点适合做生活感和街角对照。建议后续记录店面正面、招牌、道路方向和是否适合公开拍摄。",
-    "animeImage": {
-      "src": "/images/comparison/bookstore/anime-placeholder.svg",
-      "alt": "Kotobuki书店动漫截图占位图"
-    },
-    "realityImage": {
-      "src": "/images/comparison/bookstore/reality.svg",
-      "alt": "Kotobuki书店现实照片占位图",
-      "credit": "占位图",
-      "license": "待补充实拍或可公开授权照片",
-      "sourceUrl": ""
-    },
-    "mapsQuery": "ことぶき書店 土庄町"
+    "englishName": "Kotobuki Bookstore",
+    "season": "第2季",
+    "episode": "第3集",
+    "episodeTitle": "传说的学长",
+    "time": "07:45 左右",
+    "description": "两人一起逛书店，高木推荐书给西片。",
+    "animeImage": "/images/comparison/kotobuki-bookstore/anime.jpg"
   },
   {
     "id": "yanagi-tunnel",
     "name": "柳隧道",
-    "japaneseName": "柳トンネル",
-    "episode": "待补充：上传截图后填写季数、集数与时间码",
-    "sceneIntro": "隧道场景适合做道路、通学路线和过渡镜头对照。实地拍摄时注意车辆和步行安全。",
-    "animeImage": {
-      "src": "/images/comparison/tunnel/anime-placeholder.svg",
-      "alt": "柳隧道动漫截图占位图"
-    },
-    "realityImage": {
-      "src": "/images/comparison/tunnel/reality.svg",
-      "alt": "柳隧道现实照片占位图",
-      "credit": "占位图",
-      "license": "待补充实拍或可公开授权照片",
-      "sourceUrl": ""
-    },
-    "mapsQuery": "柳トンネル 小豆島"
+    "englishName": "Yanagi Tunnel",
+    "season": "第2季",
+    "episode": "第6集",
+    "episodeTitle": "暑假",
+    "time": "12:20 左右",
+    "description": "两人一起走过隧道，夏日氛围很明显。",
+    "animeImage": "/images/comparison/yanagi-tunnel/anime.jpg"
   },
   {
     "id": "seaside-road",
     "name": "海边道路",
-    "japaneseName": "海沿いの道",
-    "episode": "待补充：上传截图后填写季数、集数与时间码",
-    "sceneIntro": "高木与西片放学路氛围的核心区域。推荐傍晚拍摄背影、道路延伸线、海堤和远处海面。",
-    "animeImage": {
-      "src": "/images/comparison/seaside-road/anime-placeholder.svg",
-      "alt": "海边道路动漫截图占位图"
-    },
-    "realityImage": {
-      "src": "/images/comparison/seaside-road/reality.jpg",
-      "alt": "土庄町海边道路和街景代表图",
-      "credit": "Wikimedia Commons / 663highland",
-      "license": "CC BY 2.5 或 CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meiro-no-machi_Tonosho_Kagawa_pref_Japan05n.jpg"
-    },
-    "mapsQuery": "土庄町 海沿い 道"
+    "englishName": "Seaside Road",
+    "season": "第2季",
+    "episode": "第8集",
+    "episodeTitle": "海水浴",
+    "time": "03:50 左右",
+    "description": "去海边的路上，两人并肩走着。",
+    "animeImage": "/images/comparison/seaside-road/anime.jpg"
   },
   {
-    "id": "school-exterior",
+    "id": "school",
     "name": "学校外景",
-    "japaneseName": "学校外観",
-    "episode": "待补充：上传截图后填写季数、集数与时间码",
-    "sceneIntro": "学校外景对照需要格外注意隐私和拍摄边界。后续只建议使用公共道路可见外观，不拍摄学生和校内细节。",
-    "animeImage": {
-      "src": "/images/comparison/school/anime-placeholder.svg",
-      "alt": "学校外景动漫截图占位图"
-    },
-    "realityImage": {
-      "src": "/images/comparison/school/reality.jpg",
-      "alt": "土庄町学校外景现实照片",
-      "credit": "Wikimedia Commons",
-      "license": "Commons 授权，使用前请以文件页为准",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tonosh%C5%8D_Municipal_Tonosh%C5%8D_Junior_High_School.jpg"
-    },
-    "mapsQuery": "土庄町 学校 高木さん 聖地"
+    "englishName": "School Exterior",
+    "season": "第2季",
+    "episode": "第10集",
+    "episodeTitle": "学园祭",
+    "time": "02:15 左右",
+    "description": "学园祭当天，两人在学校门口的场景。",
+    "animeImage": "/images/comparison/school/anime.jpg"
   },
   {
-    "id": "port-area",
+    "id": "port",
     "name": "港口区域",
-    "japaneseName": "港エリア",
-    "episode": "待补充：上传截图后填写季数、集数与时间码",
-    "sceneIntro": "港口区域适合作为上岛开场、交通说明和巡礼结尾。重点拍渡轮、候船楼、巴士站与港口标识。",
-    "animeImage": {
-      "src": "/images/comparison/port/anime-placeholder.svg",
-      "alt": "港口区域动漫截图占位图"
-    },
-    "realityImage": {
-      "src": "/images/comparison/port/reality.jpg",
-      "alt": "土庄港港口区域现实照片",
-      "credit": "Wikimedia Commons / 663highland",
-      "license": "CC BY 2.5 或 CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tonosho_Port_Shodo_Island_Kagawa_Pref_Japan01s3.jpg"
-    },
-    "mapsQuery": "土庄港 小豆島"
+    "englishName": "Port Area",
+    "season": "第3季",
+    "episode": "第1集",
+    "episodeTitle": "迎接新学期",
+    "time": "01:30 左右",
+    "description": "新学期开始，两人在港口附近的场景。",
+    "animeImage": "/images/comparison/port/anime.jpg"
   },
   {
     "id": "dofuchi-strait",
     "name": "土渊海峡",
-    "japaneseName": "土渕海峡",
-    "episode": "待补充：上传截图后填写季数、集数与时间码",
-    "sceneIntro": "土庄町地标型地点，适合做路线过渡和信息型对照。重点补桥、标识、窄水道和周边街区关系。",
-    "animeImage": {
-      "src": "/images/comparison/dofuchi/anime-placeholder.svg",
-      "alt": "土渊海峡动漫截图占位图"
-    },
-    "realityImage": {
-      "src": "/images/comparison/dofuchi/reality.jpg",
-      "alt": "土渊海峡现实照片",
-      "credit": "Wikimedia Commons",
-      "license": "Commons 授权，使用前请以文件页为准",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dofuchi_Strait_ac_(2).jpg"
-    },
-    "mapsQuery": "土渕海峡 土庄町"
+    "englishName": "Dofuchi Strait",
+    "season": "第3季",
+    "episode": "第6集",
+    "episodeTitle": "毕业纪念册",
+    "time": "09:10 左右",
+    "description": "两人一起看夕阳，气氛很温馨。",
+    "animeImage": "/images/comparison/dofuchi-strait/anime.jpg"
   }
 ]
