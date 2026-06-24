@@ -1,0 +1,91 @@
+[
+  {
+    "slug": "tonosho-port",
+    "animeRelevance": 4,
+    "recommendedSeasons": ["春", "夏", "秋"],
+    "recommendedStay": "30-45 分钟",
+    "visitValue": "土庄港是进入高木同学小豆岛巡礼的情绪起点，适合拍“抵达动画舞台”的开场素材，也方便衔接巴士、街景和天使之路。",
+    "sceneComparisons": [
+      {
+        "sceneName": "抵达小豆岛的开场镜头",
+        "animePlaceholder": "预留动画截图：渡轮、港口或土庄町入口相关画面",
+        "description": "从船上看见小豆岛、走下渡轮、进入土庄港，是圣地巡礼视频最自然的开场。推荐上午抵达时拍摄，画面更明亮。"
+      }
+    ]
+  },
+  {
+    "slug": "angel-road",
+    "animeRelevance": 4,
+    "recommendedSeasons": ["春", "夏"],
+    "recommendedStay": "60-90 分钟",
+    "visitValue": "天使之路不是普通景点式打卡，而是非常适合承载“海边、距离感、青春感”的画面高潮。退潮时间合适时，值得作为当天主目标。",
+    "sceneComparisons": [
+      {
+        "sceneName": "退潮时出现的海边道路",
+        "animePlaceholder": "预留动画截图：海边道路、两人并肩或远景海面",
+        "description": "天使之路的沙洲线条很适合对应作品里的海边氛围。建议退潮前后拍摄脚步、背影和远景，后续可替换成真实动画截图做精确对照。"
+      }
+    ]
+  },
+  {
+    "slug": "seaside-road",
+    "animeRelevance": 5,
+    "recommendedSeasons": ["春", "夏", "秋"],
+    "recommendedStay": "60-120 分钟",
+    "visitValue": "这是全站最接近“高木同学日常感”的区域型地点。不要只把它当成旅游点，而要慢慢找海边路、坡道、转角和放学路的空气感。",
+    "sceneComparisons": [
+      {
+        "sceneName": "高木与西片放学经过的海边道路",
+        "animePlaceholder": "预留动画截图：高木与西片并肩走在海边路",
+        "description": "该区域被认为是动画中海边放学路线的重要原型之一。推荐傍晚前往，拍摄背影、路面线条、海堤和远处海面。"
+      },
+      {
+        "sceneName": "土庄町街角与坡道日常",
+        "animePlaceholder": "预留动画截图：街角、坡道、反光镜或小镇道路",
+        "description": "高木同学的圣地感常常藏在普通街景里。后续可用实地截图对比，把具体路口拆成更细的打卡点。"
+      }
+    ]
+  },
+  {
+    "slug": "olive-park",
+    "animeRelevance": 2,
+    "recommendedSeasons": ["春", "夏", "秋"],
+    "recommendedStay": "60-120 分钟",
+    "visitValue": "橄榄公园更偏小豆岛旅行补充点，不是高木同学核心机位，但能让巡礼视频有明亮、开阔、夏天的视觉换气。",
+    "sceneComparisons": [
+      {
+        "sceneName": "小豆岛旅行感补充镜头",
+        "animePlaceholder": "预留动画截图：小豆岛开阔风景或旅行过渡画面",
+        "description": "这里适合放在一日路线中段，用风车、草坡和海景丰富视频层次。动画关联度较低，页面中应明确标注为旅行补充点。"
+      }
+    ]
+  },
+  {
+    "slug": "kashima-myojin-shrine",
+    "animeRelevance": 3,
+    "recommendedSeasons": ["春", "夏", "秋"],
+    "recommendedStay": "30-45 分钟",
+    "visitValue": "鹿岛明神社适合补足小镇安静的一面，让路线从海边明亮感切换到树影、参道和神社氛围。",
+    "sceneComparisons": [
+      {
+        "sceneName": "小镇神社与安静参道",
+        "animePlaceholder": "预留动画截图：神社、树影或参道相关画面",
+        "description": "神社类画面适合作为巡礼视频的慢节奏段落。当前现实照片为土庄町代表图，后续优先补拍鹿岛明神社真实照片。"
+      }
+    ]
+  },
+  {
+    "slug": "dofuchi-strait",
+    "animeRelevance": 3,
+    "recommendedSeasons": ["春", "夏", "秋", "冬"],
+    "recommendedStay": "20-30 分钟",
+    "visitValue": "土渊海峡适合作为土庄町地标补充点，停留时间短，但能让巡礼路线更有地域识别度。",
+    "sceneComparisons": [
+      {
+        "sceneName": "土庄町地标与街区过渡",
+        "animePlaceholder": "预留动画截图：土庄町地标、桥、街区移动相关画面",
+        "description": "土渊海峡适合做路线中的信息点，不建议过度包装成核心场景。拍摄时重点是桥、标识和窄水道。"
+      }
+    ]
+  }
+]

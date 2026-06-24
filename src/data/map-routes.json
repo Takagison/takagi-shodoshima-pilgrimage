@@ -1,0 +1,23 @@
+[
+  {
+    "id": "half-day",
+    "title": "半日路线",
+    "summary": "港口开场、土庄町街景、天使之路高潮，适合当天往返。",
+    "duration": "4-5 小时",
+    "spotSlugs": ["tonosho-port", "dofuchi-strait", "seaside-road", "angel-road"]
+  },
+  {
+    "id": "one-day",
+    "title": "一日路线",
+    "summary": "把高木同学氛围点和小豆岛开阔风景都收进来。",
+    "duration": "8-9 小时",
+    "spotSlugs": ["tonosho-port", "dofuchi-strait", "kashima-myojin-shrine", "seaside-road", "olive-park", "angel-road"]
+  },
+  {
+    "id": "first-classic",
+    "title": "经典第一次路线",
+    "summary": "第一次巡礼优先级最高：港口、海边路、天使之路。",
+    "duration": "约 6 小时",
+    "spotSlugs": ["tonosho-port", "seaside-road", "angel-road"]
+  }
+]

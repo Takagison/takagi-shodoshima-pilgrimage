@@ -24,26 +24,29 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950/82 via-slate-950/45 to-slate-950/10" />
         <div className="relative mx-auto flex min-h-[620px] max-w-6xl flex-col justify-end px-5 py-16">
           <p className="mb-5 w-fit rounded-full border border-white/30 bg-white/15 px-4 py-2 text-sm font-bold backdrop-blur">
-            高木同学圣地巡礼 · 小豆岛旅游攻略
+            高木同学圣地巡礼 · 小豆岛
           </p>
           <h1 className="max-w-4xl text-5xl font-black leading-tight tracking-normal sm:text-7xl">
-            高木同学小豆岛圣地巡礼地图
+            欢迎来到高木同学的小豆岛
           </h1>
           <p className="mt-6 max-w-2xl text-xl leading-9 text-white/85">
-            从土庄港出发，走进动画里的海边小镇。这里整理路线、地点、交通、拍摄建议和视频选题，帮你把第一次小豆岛巡礼变成真正能发布的作品。
+            这里是《擅长捉弄人的高木同学》的现实舞台。
+          </p>
+          <p className="mt-4 max-w-2xl leading-8 text-white/80">
+            收录动画相关地点、巡礼路线、拍摄建议与个人打卡记录。
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <Link
-              href="/first-time"
+              href="/my-pilgrimage"
               className="inline-flex h-12 items-center justify-center rounded-full bg-white px-7 text-base font-bold text-sky-800 transition hover:bg-sky-50"
             >
-              第一次去怎么走
+              开始巡礼
             </Link>
             <Link
               href="/map"
               className="inline-flex h-12 items-center justify-center rounded-full border border-white/40 bg-white/10 px-7 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
             >
-              开始巡礼
+              查看地图
             </Link>
           </div>
           <p className="mt-5 text-xs text-white/70">

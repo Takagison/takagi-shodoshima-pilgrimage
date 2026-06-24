@@ -1,9 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { AnimeSceneCompare } from "@/components/AnimeSceneCompare";
 import { SpotActionButtons } from "@/components/PilgrimageActions";
 import { SpotImage } from "@/components/SpotImage";
-import { getSpotBySlug, getSpots } from "@/lib/data";
+import { getSpotBySlug, getSpots, getSpotStageTwo } from "@/lib/data";
 
 export function generateStaticParams() {
   return getSpots().map((spot) => ({ slug: spot.slug }));
@@ -39,8 +40,9 @@ export default async function SpotDetailPage({
 }) {
   const { slug } = await params;
   const spot = getSpotBySlug(slug);
+  const stage = getSpotStageTwo(slug);
 
-  if (!spot) {
+  if (!spot || !stage) {
     notFound();
   }
 
@@ -70,8 +72,21 @@ export default async function SpotDetailPage({
 
       <section className="mx-auto grid max-w-6xl gap-6 px-5 py-12 lg:grid-cols-[1.3fr_0.7fr]">
         <article className="rounded-lg border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100">
+          <div className="mb-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <DetailBadge
+              label="动画关联度"
+              value={"★".repeat(stage.animeRelevance) + "☆".repeat(5 - stage.animeRelevance)}
+            />
+            <DetailBadge label="推荐季节" value={stage.recommendedSeasons.join("、")} />
+            <DetailBadge label="推荐停留" value={stage.recommendedStay} />
+            <DetailBadge label="交通方式" value={spot.area} />
+          </div>
           <h2 className="text-2xl font-black text-slate-900">打卡说明</h2>
           <p className="mt-4 leading-8 text-slate-600">{spot.description}</p>
+          <section className="mt-7 rounded-lg bg-sky-50 p-5">
+            <h2 className="text-xl font-black text-slate-900">巡礼价值说明</h2>
+            <p className="mt-3 leading-8 text-slate-700">{stage.visitValue}</p>
+          </section>
           <section className="mt-7 rounded-lg bg-sand-100 p-5">
             <h2 className="text-xl font-black text-slate-900">历史背景</h2>
             <p className="mt-3 leading-8 text-slate-700">{spot.history}</p>
@@ -98,6 +113,7 @@ export default async function SpotDetailPage({
             <h2 className="text-xl font-black text-slate-900">巡礼建议</h2>
             <p className="mt-3 leading-8 text-slate-700">{spot.pilgrimageAdvice}</p>
           </section>
+          <AnimeSceneCompare spot={spot} stage={stage} />
           <div className="mt-6 flex flex-wrap gap-2">
             {spot.tags.map((tag) => (
               <span
@@ -111,6 +127,19 @@ export default async function SpotDetailPage({
         </article>
 
         <aside className="space-y-4">
+          <div className="rounded-lg border border-sky-100 bg-mint-50 p-5">
+            <p className="text-sm font-bold text-coral-500">动画关联度</p>
+            <p className="mt-2 text-2xl font-black text-coral-500">
+              {"★".repeat(stage.animeRelevance)}
+              <span className="text-slate-200">{"★".repeat(5 - stage.animeRelevance)}</span>
+            </p>
+          </div>
+          <div className="rounded-lg border border-sky-100 bg-white p-5">
+            <p className="text-sm font-bold text-coral-500">推荐巡礼季节</p>
+            <p className="mt-2 text-lg font-black text-slate-900">
+              {stage.recommendedSeasons.join("、")}
+            </p>
+          </div>
           <div className="rounded-lg border border-sky-100 bg-mint-50 p-5">
             <p className="text-sm font-bold text-coral-500">推荐拍照时间</p>
             <p className="mt-2 text-lg font-black text-slate-900">
@@ -153,6 +182,15 @@ export default async function SpotDetailPage({
         </aside>
       </section>
     </main>
+  );
+}
+
+function DetailBadge({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="rounded-lg bg-mint-50 px-4 py-3">
+      <p className="text-xs font-bold text-coral-500">{label}</p>
+      <p className="mt-1 text-sm font-black leading-6 text-slate-900">{value}</p>
+    </div>
   );
 }
 
