@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/first-time",
     "/anime-locations",
     "/scene-library",
+    "/asset-guide",
     "/video-ideas",
     "/sources",
     "/about",

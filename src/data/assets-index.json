@@ -1,0 +1,56 @@
+[
+  {
+    "spotSlug": "seaside-road",
+    "spotName": "海边路",
+    "animeScreenshots": { "current": 3, "target": 10 },
+    "realityPhotos": { "current": 5, "target": 10 },
+    "videos": { "current": 0, "target": 0 },
+    "completionPercent": 40,
+    "nextAction": "优先补齐同一机位的动画截图时间码和傍晚实拍照片。"
+  },
+  {
+    "spotSlug": "kashima-myojin-shrine",
+    "spotName": "鹿岛明神社",
+    "animeScreenshots": { "current": 0, "target": 8 },
+    "realityPhotos": { "current": 0, "target": 8 },
+    "videos": { "current": 0, "target": 2 },
+    "completionPercent": 0,
+    "nextAction": "先补神社入口、鸟居、参道、树影方向的实拍素材。"
+  },
+  {
+    "spotSlug": "tonosho-port",
+    "spotName": "土庄港",
+    "animeScreenshots": { "current": 0, "target": 6 },
+    "realityPhotos": { "current": 0, "target": 8 },
+    "videos": { "current": 0, "target": 3 },
+    "completionPercent": 0,
+    "nextAction": "补渡轮靠岸、港口标识、巴士站和上岛开场视频。"
+  },
+  {
+    "spotSlug": "angel-road",
+    "spotName": "天使之路",
+    "animeScreenshots": { "current": 0, "target": 8 },
+    "realityPhotos": { "current": 0, "target": 10 },
+    "videos": { "current": 0, "target": 3 },
+    "completionPercent": 0,
+    "nextAction": "按潮汐补退潮前后、沙洲全景、脚步和背影镜头。"
+  },
+  {
+    "spotSlug": "olive-park",
+    "spotName": "小豆岛橄榄公园",
+    "animeScreenshots": { "current": 0, "target": 4 },
+    "realityPhotos": { "current": 0, "target": 8 },
+    "videos": { "current": 0, "target": 2 },
+    "completionPercent": 0,
+    "nextAction": "先确认是否为直接动画场景；若不是，作为旅行补充素材记录。"
+  },
+  {
+    "spotSlug": "dofuchi-strait",
+    "spotName": "土渊海峡",
+    "animeScreenshots": { "current": 0, "target": 4 },
+    "realityPhotos": { "current": 0, "target": 6 },
+    "videos": { "current": 0, "target": 2 },
+    "completionPercent": 0,
+    "nextAction": "补桥、海峡标识、窄水道和路线说明视频素材。"
+  }
+]

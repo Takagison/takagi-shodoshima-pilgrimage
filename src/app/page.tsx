@@ -1,12 +1,14 @@
 import Link from "next/link";
+import { AssetCompletionGrid } from "@/components/AssetCompletionGrid";
 import { PilgrimageProgress } from "@/components/PilgrimageActions";
 import { SpotCard } from "@/components/SpotCard";
 import { SpotImage } from "@/components/SpotImage";
-import { getRoutes, getSpots, getVideoIdeas } from "@/lib/data";
+import { getAssetsIndex, getRoutes, getSpots, getVideoIdeas } from "@/lib/data";
 
 export default function Home() {
   const spots = getSpots();
   const routes = getRoutes();
+  const assets = getAssetsIndex();
   const videoIdeas = getVideoIdeas().slice(0, 3);
   const heroSpot = spots.find((spot) => spot.slug === "angel-road") ?? spots[0];
   const hotSpots = spots.filter((spot) =>
@@ -57,6 +59,37 @@ export default function Home() {
 
       <section className="mx-auto max-w-6xl px-5 py-12">
         <PilgrimageProgress spots={spots.map(({ slug, name }) => ({ slug, name }))} />
+      </section>
+
+      <section className="bg-mint-50/70">
+        <div className="mx-auto max-w-6xl px-5 py-14 sm:py-18">
+          <div className="grid gap-5 lg:grid-cols-[0.8fr_1.2fr]">
+            <div>
+              <p className="text-sm font-bold text-coral-500">Database</p>
+              <h2 className="mt-2 text-3xl font-black text-slate-900">
+                资料库入口
+              </h2>
+              <p className="mt-4 leading-8 text-slate-600">
+                动画截图、现实照片和视频素材都先按规范登记。资料库越整齐，后面做圣地对照和短视频脚本就越省时间。
+              </p>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link
+                  href="/scene-library"
+                  className="rounded-full bg-sky-600 px-5 py-3 text-sm font-bold text-white"
+                >
+                  动画场景资料库
+                </Link>
+                <Link
+                  href="/asset-guide"
+                  className="rounded-full bg-white px-5 py-3 text-sm font-bold text-sky-700"
+                >
+                  素材上传指南
+                </Link>
+              </div>
+            </div>
+            <AssetCompletionGrid assets={assets.slice(0, 3)} compact />
+          </div>
+        </div>
       </section>
 
       <section className="bg-white/70">

@@ -1,5 +1,6 @@
 import animeLocations from "@/data/anime-locations.json";
 import animeScenes from "@/data/anime-scenes.json";
+import assetsIndex from "@/data/assets-index.json";
 import firstVisit from "@/data/first-visit.json";
 import mapRoutes from "@/data/map-routes.json";
 import routes from "@/data/routes.json";
@@ -15,6 +16,7 @@ export type SourceItem = (typeof sources)[number];
 export type FirstVisitGuide = typeof firstVisit;
 export type AnimeLocationGroup = (typeof animeLocations)[number];
 export type AnimeScene = (typeof animeScenes)[number];
+export type AssetIndexItem = (typeof assetsIndex)[number];
 export type SpotStageTwo = (typeof spotStageTwo)[number];
 export type MapRoute = (typeof mapRoutes)[number];
 
@@ -64,4 +66,8 @@ export function getAnimeScenes(): AnimeScene[] {
 
 export function getAnimeScenesBySpotSlug(spotSlug: string): AnimeScene[] {
   return getAnimeScenes().filter((scene) => scene.spotSlug === spotSlug);
+}
+
+export function getAssetsIndex(): AssetIndexItem[] {
+  return assetsIndex;
 }
