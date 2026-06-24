@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">动画截图占位图</title>
+  <desc id="desc">用于高木同学动画场景截图上传前的占位图</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="48%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <circle cx="1018" cy="132" r="56" fill="#fff7ed" opacity="0.95"/>
+  <path d="M0 386 C180 344 308 420 492 386 C683 350 806 410 1002 374 C1128 351 1200 360 1280 384 L1280 720 L0 720 Z" fill="url(#sea)" opacity="0.86"/>
+  <path d="M0 505 C210 474 342 526 520 494 C755 451 918 514 1280 466 L1280 720 L0 720 Z" fill="#ecfeff" opacity="0.56"/>
+  <path d="M144 594 C366 548 596 548 850 594 C986 618 1118 620 1280 596 L1280 720 L0 720 L0 627 C44 616 92 605 144 594 Z" fill="#fde68a" opacity="0.92"/>
+  <rect x="280" y="214" width="720" height="292" rx="28" fill="#0f172a" opacity="0.62"/>
+  <rect x="316" y="250" width="648" height="220" rx="20" fill="none" stroke="#ffffff" stroke-width="4" stroke-dasharray="18 18" opacity="0.9"/>
+  <text x="640" y="337" text-anchor="middle" fill="#ffffff" font-family="Arial, 'Hiragino Sans GB', sans-serif" font-size="42" font-weight="700">动画截图预留位</text>
+  <text x="640" y="394" text-anchor="middle" fill="#e0f2fe" font-family="Arial, 'Hiragino Sans GB', sans-serif" font-size="24">后续替换为手动上传的高木同学截图</text>
+</svg>

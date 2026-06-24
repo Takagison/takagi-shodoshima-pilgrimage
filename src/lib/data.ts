@@ -1,6 +1,7 @@
 import animeLocations from "@/data/anime-locations.json";
 import animeScenes from "@/data/anime-scenes.json";
 import assetsIndex from "@/data/assets-index.json";
+import comparisonSpots from "@/data/comparison-spots.json";
 import firstVisit from "@/data/first-visit.json";
 import mapRoutes from "@/data/map-routes.json";
 import routes from "@/data/routes.json";
@@ -17,6 +18,7 @@ export type FirstVisitGuide = typeof firstVisit;
 export type AnimeLocationGroup = (typeof animeLocations)[number];
 export type AnimeScene = (typeof animeScenes)[number];
 export type AssetIndexItem = (typeof assetsIndex)[number];
+export type ComparisonSpot = (typeof comparisonSpots)[number];
 export type SpotStageTwo = (typeof spotStageTwo)[number];
 export type MapRoute = (typeof mapRoutes)[number];
 
@@ -70,4 +72,8 @@ export function getAnimeScenesBySpotSlug(spotSlug: string): AnimeScene[] {
 
 export function getAssetsIndex(): AssetIndexItem[] {
   return assetsIndex;
+}
+
+export function getComparisonSpots(): ComparisonSpot[] {
+  return comparisonSpots;
 }
