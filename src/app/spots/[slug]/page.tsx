@@ -4,7 +4,12 @@ import { notFound } from "next/navigation";
 import { AnimeSceneCompare } from "@/components/AnimeSceneCompare";
 import { SpotActionButtons } from "@/components/PilgrimageActions";
 import { SpotImage } from "@/components/SpotImage";
-import { getSpotBySlug, getSpots, getSpotStageTwo } from "@/lib/data";
+import {
+  getAnimeScenesBySpotSlug,
+  getSpotBySlug,
+  getSpots,
+  getSpotStageTwo,
+} from "@/lib/data";
 
 export function generateStaticParams() {
   return getSpots().map((spot) => ({ slug: spot.slug }));
@@ -41,6 +46,7 @@ export default async function SpotDetailPage({
   const { slug } = await params;
   const spot = getSpotBySlug(slug);
   const stage = getSpotStageTwo(slug);
+  const scenes = getAnimeScenesBySpotSlug(slug);
 
   if (!spot || !stage) {
     notFound();
@@ -113,7 +119,7 @@ export default async function SpotDetailPage({
             <h2 className="text-xl font-black text-slate-900">巡礼建议</h2>
             <p className="mt-3 leading-8 text-slate-700">{spot.pilgrimageAdvice}</p>
           </section>
-          <AnimeSceneCompare spot={spot} stage={stage} />
+          <AnimeSceneCompare scenes={scenes} />
           <div className="mt-6 flex flex-wrap gap-2">
             {spot.tags.map((tag) => (
               <span

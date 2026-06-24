@@ -1,0 +1,128 @@
+[
+  {
+    "id": "kashima-myojin-shrine-main",
+    "priority": 1,
+    "spotSlug": "kashima-myojin-shrine",
+    "spotName": "鹿岛明神社",
+    "sceneName": "小镇神社与安静参道",
+    "episode": "待补充：请上传截图后确认季数、集数与时间码",
+    "animeImage": {
+      "src": "/images/anime-scene-placeholder.svg",
+      "alt": "鹿岛明神社相关动画截图占位图",
+      "status": "placeholder",
+      "note": "后续替换为神社、鸟居、参道或树影相关动画截图。"
+    },
+    "realityImage": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonosho%20townscape%20ac%20%281%29.jpg?width=1200",
+      "alt": "土庄町街景代表图，后续替换为鹿岛明神社实拍",
+      "caption": "当前使用土庄町代表图片暂代鹿岛明神社，后续优先补拍神社入口、鸟居和参道。"
+    },
+    "description": "鹿岛明神社适合承载高木同学巡礼里的安静段落。建议后续用动画截图和实地照片确认鸟居、参道、树影方向，再拆成更细的机位。",
+    "sliderLabel": "拖动查看动画占位与现实照片对照"
+  },
+  {
+    "id": "seaside-road-after-school",
+    "priority": 2,
+    "spotSlug": "seaside-road",
+    "spotName": "高木同学相关海边路/土庄町街景",
+    "sceneName": "高木与西片放学经过的海边道路",
+    "episode": "待补充：请上传截图后确认季数、集数与时间码",
+    "animeImage": {
+      "src": "/images/anime-scene-placeholder.svg",
+      "alt": "海边路相关动画截图占位图",
+      "status": "placeholder",
+      "note": "后续替换为两人并肩走在海边路、坡道或街角的动画截图。"
+    },
+    "realityImage": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Meiro-no-machi%20Tonosho%20Kagawa%20pref%20Japan01n.jpg?width=1200",
+      "alt": "土庄町街景与海边路代表图",
+      "caption": "土庄町街景用于代表高木同学日常感区域，具体海边路机位需要实地补拍。"
+    },
+    "description": "海边路是全站最接近“放学路”和“日常感”的巡礼核心。推荐傍晚拍摄背影、道路线条、海堤与远处海面。",
+    "sliderLabel": "拖动查看动画占位与现实海边路对照"
+  },
+  {
+    "id": "tonosho-port-arrival",
+    "priority": 3,
+    "spotSlug": "tonosho-port",
+    "spotName": "土庄港",
+    "sceneName": "抵达小豆岛的开场镜头",
+    "episode": "待补充：请上传截图后确认季数、集数与时间码",
+    "animeImage": {
+      "src": "/images/anime-scene-placeholder.svg",
+      "alt": "土庄港相关动画截图占位图",
+      "status": "placeholder",
+      "note": "后续替换为渡轮、港口、巴士站或土庄町入口相关动画截图。"
+    },
+    "realityImage": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonosho%20Port%20Shodo%20Island%20Kagawa%20Pref%20Japan01s3.jpg?width=1200",
+      "alt": "小豆岛土庄港现实照片",
+      "caption": "土庄港适合作为视频开场和巡礼路线起点。"
+    },
+    "description": "从船上看到小豆岛、走下渡轮、进入土庄港，是圣地巡礼最自然的开场。建议拍渡轮靠岸、港口标识和巴士站。",
+    "sliderLabel": "拖动查看动画占位与土庄港现实照片对照"
+  },
+  {
+    "id": "angel-road-low-tide",
+    "priority": 4,
+    "spotSlug": "angel-road",
+    "spotName": "天使之路",
+    "sceneName": "退潮时出现的海边道路",
+    "episode": "待补充：请上传截图后确认季数、集数与时间码",
+    "animeImage": {
+      "src": "/images/anime-scene-placeholder.svg",
+      "alt": "天使之路相关动画截图占位图",
+      "status": "placeholder",
+      "note": "后续替换为海边道路、沙洲、两人背影或海面远景相关动画截图。"
+    },
+    "realityImage": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Angel%20Road%20Shodo%20Island%20Japan01s3.jpg?width=1200",
+      "alt": "小豆岛天使之路退潮沙洲现实照片",
+      "caption": "天使之路需按潮汐拍摄，适合作为路线里的视觉高潮。"
+    },
+    "description": "天使之路的沙洲和海面非常适合承载青春感画面。后续上传截图后，可重点对照道路方向、人物站位和退潮状态。",
+    "sliderLabel": "拖动查看动画占位与天使之路现实照片对照"
+  },
+  {
+    "id": "olive-park-travel-cutaway",
+    "priority": 5,
+    "spotSlug": "olive-park",
+    "spotName": "小豆岛橄榄公园",
+    "sceneName": "小豆岛旅行感补充镜头",
+    "episode": "待补充：请上传截图后确认是否为直接场景或旅行补充点",
+    "animeImage": {
+      "src": "/images/anime-scene-placeholder.svg",
+      "alt": "小豆岛橄榄公园相关动画截图占位图",
+      "status": "placeholder",
+      "note": "后续若确认动画相关画面，可替换为风车、开阔海景或旅行过渡截图。"
+    },
+    "realityImage": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Shodoshima%20Greek%20Windmill.jpg?width=1200",
+      "alt": "小豆岛橄榄公园希腊风车现实照片",
+      "caption": "橄榄公园目前作为小豆岛旅行补充点处理，动画关联需后续核实。"
+    },
+    "description": "橄榄公园更适合补充清爽、夏天、海风感画面。若后续没有明确动画截图，也可以继续标注为旅行补充镜头。",
+    "sliderLabel": "拖动查看动画占位与橄榄公园现实照片对照"
+  },
+  {
+    "id": "dofuchi-strait-town-marker",
+    "priority": 6,
+    "spotSlug": "dofuchi-strait",
+    "spotName": "土渊海峡",
+    "sceneName": "土庄町地标与街区过渡",
+    "episode": "待补充：请上传截图后确认季数、集数与时间码",
+    "animeImage": {
+      "src": "/images/anime-scene-placeholder.svg",
+      "alt": "土渊海峡相关动画截图占位图",
+      "status": "placeholder",
+      "note": "后续替换为桥、街区移动、地标或土庄町过渡画面。"
+    },
+    "realityImage": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Dofuchi%20Strait%20ac%20%282%29.jpg?width=1200",
+      "alt": "土渊海峡现实照片",
+      "caption": "土渊海峡适合做土庄町地标补充点和路线说明镜头。"
+    },
+    "description": "土渊海峡更适合做信息型对照和街区过渡。拍摄重点是桥、海峡标识、窄水道和从港口过来的路线关系。",
+    "sliderLabel": "拖动查看动画占位与土渊海峡现实照片对照"
+  }
+]

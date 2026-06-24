@@ -7,6 +7,7 @@ const navItems = [
   { href: "/routes", label: "路线推荐" },
   { href: "/first-time", label: "第一次去" },
   { href: "/anime-locations", label: "动画地点" },
+  { href: "/scene-library", label: "场景库" },
   { href: "/video-ideas", label: "视频灵感" },
   { href: "/sources", label: "资料来源" },
   { href: "/about", label: "关于" },
