@@ -8,7 +8,7 @@ export function SceneCompareSlider({ scene }: { scene: AnimeScene }) {
 
   return (
     <div className="mt-4">
-      <div className="relative aspect-video overflow-hidden rounded-lg bg-sky-100">
+      <div className="relative aspect-video overflow-hidden rounded-[16px] bg-sky-100">
         <img
           src={scene.realityImage.src}
           alt={scene.realityImage.alt}

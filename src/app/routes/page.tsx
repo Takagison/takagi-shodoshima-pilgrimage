@@ -14,7 +14,7 @@ export default function RoutesPage() {
         {routes.map((route, index) => (
           <article
             key={route.title}
-            className="rounded-lg border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100"
+            className="rounded-[16px] border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100"
           >
             <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
               <div>
@@ -31,7 +31,7 @@ export default function RoutesPage() {
               </span>
             </div>
 
-            <div className="mt-6 rounded-lg bg-mint-50 p-4 leading-7 text-slate-700">
+            <div className="mt-6 rounded-[16px] bg-mint-50 p-4 leading-7 text-slate-700">
               <span className="font-bold text-coral-500">交通方式：</span>
               {route.transport}
             </div>
@@ -40,7 +40,7 @@ export default function RoutesPage() {
               {route.schedule.map((item) => (
                 <div
                   key={`${route.title}-${item.time}`}
-                  className="grid gap-2 rounded-lg border border-sky-100 bg-white px-4 py-3 sm:grid-cols-[110px_1fr]"
+                  className="grid gap-2 rounded-[16px] border border-sky-100 bg-white px-4 py-3 sm:grid-cols-[110px_1fr]"
                 >
                   <p className="font-black text-sky-700">{item.time}</p>
                   <p className="leading-7 text-slate-600">{item.plan}</p>
@@ -52,7 +52,7 @@ export default function RoutesPage() {
               {route.stops.map((stop, stopIndex) => (
                 <div
                   key={stop}
-                  className="rounded-lg bg-sky-50 px-4 py-3 text-sm font-semibold text-slate-700"
+                  className="rounded-[16px] bg-sky-50 px-4 py-3 text-sm font-semibold text-slate-700"
                 >
                   {stopIndex + 1}. {stop}
                 </div>
@@ -60,16 +60,16 @@ export default function RoutesPage() {
             </div>
 
             <div className="mt-6 grid gap-4 md:grid-cols-2">
-              <p className="rounded-lg bg-sand-100 px-4 py-3 text-sm leading-6 text-slate-700">
+              <p className="rounded-[16px] bg-sand-100 px-4 py-3 text-sm leading-6 text-slate-700">
                 适合人群：{route.bestFor}
               </p>
-              <p className="rounded-lg bg-sky-50 px-4 py-3 text-sm leading-6 text-slate-700">
+              <p className="rounded-[16px] bg-sky-50 px-4 py-3 text-sm leading-6 text-slate-700">
                 预算预估：{route.budget}
               </p>
-              <p className="rounded-lg bg-mint-50 px-4 py-3 text-sm leading-6 text-slate-700 md:col-span-2">
+              <p className="rounded-[16px] bg-mint-50 px-4 py-3 text-sm leading-6 text-slate-700 md:col-span-2">
                 拍摄建议：{route.shootingAdvice}
               </p>
-              <p className="rounded-lg bg-white px-4 py-3 text-sm leading-6 text-slate-700 md:col-span-2">
+              <p className="rounded-[16px] bg-white px-4 py-3 text-sm leading-6 text-slate-700 md:col-span-2">
                 提醒：{route.note}
               </p>
             </div>

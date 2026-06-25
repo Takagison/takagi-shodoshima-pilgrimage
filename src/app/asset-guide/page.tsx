@@ -42,7 +42,7 @@ export default function AssetGuidePage() {
         />
       </section>
 
-      <section className="mt-8 rounded-lg border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
+      <section className="mt-8 rounded-[16px] border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
         <p className="text-sm font-bold text-coral-500">自动素材登记表</p>
         <h2 className="mt-2 text-2xl font-black text-slate-900">
           assets-index.json
@@ -67,7 +67,7 @@ export default function AssetGuidePage() {
 
 function SummaryCard({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
+    <div className="rounded-[16px] border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
       <p className="text-sm font-bold text-coral-500">{label}</p>
       <p className="mt-2 text-2xl font-black text-slate-900">{value}</p>
     </div>
@@ -86,17 +86,17 @@ function GuideBlock({
   items: string[];
 }) {
   return (
-    <article className="rounded-lg border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
+    <article className="rounded-[16px] border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
       <p className="text-sm font-bold text-coral-500">{title}</p>
       <p className="mt-3 leading-8 text-slate-600">{description}</p>
-      <div className="mt-4 rounded-lg bg-slate-900 px-4 py-3 font-mono text-sm text-white">
+      <div className="mt-4 rounded-[16px] bg-slate-900 px-4 py-3 font-mono text-sm text-white">
         {example}
       </div>
       <div className="mt-4 grid gap-2">
         {items.map((item) => (
           <p
             key={item}
-            className="rounded-lg bg-mint-50 px-4 py-3 text-sm font-bold text-slate-700"
+            className="rounded-[16px] bg-mint-50 px-4 py-3 text-sm font-bold text-slate-700"
           >
             {item}
           </p>

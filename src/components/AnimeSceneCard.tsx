@@ -10,7 +10,7 @@ export function AnimeSceneCard({
   showSpotLink?: boolean;
 }) {
   return (
-    <article className="overflow-hidden rounded-lg border border-sky-100 bg-white shadow-sm shadow-sky-100">
+    <article className="overflow-hidden rounded-[16px] border border-sky-100 bg-white shadow-sm shadow-sky-100">
       <div className="border-b border-sky-100 bg-sky-50 px-5 py-4">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
           <div>
@@ -44,13 +44,13 @@ export function AnimeSceneCard({
       </div>
 
       <div className="grid gap-4 border-t border-sky-100 px-5 py-5 lg:grid-cols-[0.8fr_1.2fr]">
-        <div className="rounded-lg bg-mint-50 p-4">
+        <div className="rounded-[16px] bg-mint-50 p-4">
           <p className="text-xs font-bold text-coral-500">出现集数</p>
           <p className="mt-2 text-sm font-bold leading-6 text-slate-800">
             {scene.episode}
           </p>
         </div>
-        <div className="rounded-lg bg-sky-50 p-4">
+        <div className="rounded-[16px] bg-sky-50 p-4">
           <p className="text-xs font-bold text-coral-500">场景说明</p>
           <p className="mt-2 leading-7 text-slate-700">{scene.description}</p>
         </div>
@@ -89,7 +89,7 @@ function SceneImage({
       <p className={dark ? "text-xs font-bold text-sky-100" : "text-xs font-bold text-coral-500"}>
         {label}
       </p>
-      <figure className="mt-3 overflow-hidden rounded-lg bg-sky-100">
+      <figure className="mt-3 overflow-hidden rounded-[16px] bg-sky-100">
         <img src={src} alt={alt} className="aspect-video w-full object-cover" loading="lazy" />
         <figcaption
           className={

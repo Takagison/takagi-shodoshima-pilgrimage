@@ -17,7 +17,7 @@ export default function ComparisonPage() {
       title="动漫截图对照"
       intro="这里先整理《擅长捉弄人的高木同学》动画截图与地点信息。现实照片暂时不显示，后续再继续做同角度对照。"
     >
-      <section className="mb-8 rounded-lg border border-sky-100 bg-mint-50 p-5">
+      <section className="mb-8 rounded-[16px] border border-sky-100 bg-mint-50 p-5">
         <p className="text-sm font-bold text-coral-500">素材说明</p>
         <p className="mt-3 leading-8 text-slate-700">
           当前截图来自你提供的地点总表，仅用于圣地巡礼资料整理与对照研究。后续如果要做公开传播或商业化页面，
@@ -29,7 +29,7 @@ export default function ComparisonPage() {
         {spots.map((spot, index) => (
           <article
             key={spot.id}
-            className="overflow-hidden rounded-lg border border-sky-100 bg-white shadow-sm shadow-sky-100"
+            className="overflow-hidden rounded-[16px] border border-sky-100 bg-white shadow-sm shadow-sky-100"
           >
             <div className="grid gap-0 lg:grid-cols-[1.15fr_0.85fr]">
               <figure className="bg-slate-900 p-4">
@@ -57,7 +57,7 @@ export default function ComparisonPage() {
                   </div>
                 </div>
 
-                <div className="mt-5 rounded-lg bg-sky-50 p-4">
+                <div className="mt-5 rounded-[16px] bg-sky-50 p-4">
                   <p className="text-xs font-bold text-coral-500">场景说明</p>
                   <p className="mt-2 leading-7 text-slate-700">
                     {spot.description}

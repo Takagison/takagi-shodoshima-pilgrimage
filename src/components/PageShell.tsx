@@ -13,7 +13,7 @@ export function PageShell({
 }) {
   return (
     <main>
-      <section className="border-b border-sky-100 bg-gradient-to-b from-sky-50 via-white to-mint-50">
+      <section className="border-b border-sky-100 bg-gradient-to-b from-[#eef7f4] via-[#f4f1eb] to-[#ebe8e0]">
         <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
           <p className="text-sm font-bold text-coral-500">{eyebrow}</p>
           <h1 className="mt-3 max-w-3xl text-4xl font-black tracking-normal text-slate-900 sm:text-5xl">

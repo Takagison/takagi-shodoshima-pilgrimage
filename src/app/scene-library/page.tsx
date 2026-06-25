@@ -24,7 +24,7 @@ export default function SceneLibraryPage() {
         <StatusCard label="优先整理" value="鹿岛明神社 / 海边路" />
       </section>
 
-      <section className="mb-8 rounded-lg border border-sky-100 bg-mint-50 p-5">
+      <section className="mb-8 rounded-[16px] border border-sky-100 bg-mint-50 p-5">
         <p className="text-sm font-bold text-coral-500">使用说明</p>
         <p className="mt-3 leading-8 text-slate-700">
           后续上传动画截图时，只需要把图片放入 public 目录，并在
@@ -44,7 +44,7 @@ export default function SceneLibraryPage() {
 
 function StatusCard({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
+    <div className="rounded-[16px] border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
       <p className="text-sm font-bold text-coral-500">{label}</p>
       <p className="mt-2 text-2xl font-black text-slate-900">{value}</p>
     </div>

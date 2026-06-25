@@ -17,7 +17,7 @@ const navItems = [
 
 export function SiteNav() {
   return (
-    <header className="sticky top-0 z-50 border-b border-sky-100/80 bg-white/82 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-sky-100/70 bg-[#f4f1eb]/86 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
         <Link href="/" className="flex items-center gap-3">
           <span className="grid size-10 place-items-center rounded-full bg-coral-100 text-lg">
@@ -27,7 +27,7 @@ export function SiteNav() {
             高木同学小豆岛巡礼
           </span>
         </Link>
-        <div className="hidden items-center gap-1 rounded-full border border-sky-100 bg-white/80 p-1 shadow-sm shadow-sky-100/50 lg:flex">
+        <div className="hidden items-center gap-1 rounded-full border border-sky-100 bg-white/58 p-1 shadow-sm shadow-sky-100/50 lg:flex">
           {navItems.map((item) => (
             <Link
               key={item.href}

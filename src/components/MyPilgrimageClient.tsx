@@ -58,7 +58,7 @@ export function MyPilgrimageClient({ spots }: { spots: Spot[] }) {
 
   return (
     <div className="grid gap-6">
-      <section className="rounded-lg border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
+      <section className="rounded-[16px] border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
         <p className="text-sm font-bold text-coral-500">My Pilgrimage</p>
         <h2 className="mt-2 text-3xl font-black text-slate-900">
           巡礼进度 {progress}%
@@ -75,7 +75,7 @@ export function MyPilgrimageClient({ spots }: { spots: Spot[] }) {
           <Stat label="预计剩余时间" value={remainingText} />
         </div>
         {progress === 100 ? (
-          <p className="mt-5 rounded-lg bg-sand-100 px-4 py-3 text-sm font-bold text-slate-800">
+          <p className="mt-5 rounded-[16px] bg-sand-100 px-4 py-3 text-sm font-bold text-slate-800">
             你已完成小豆岛青春巡礼。下一步可以整理截图对照和短视频素材。
           </p>
         ) : (
@@ -95,7 +95,7 @@ export function MyPilgrimageClient({ spots }: { spots: Spot[] }) {
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg bg-sky-50 px-4 py-3">
+    <div className="rounded-[16px] bg-sky-50 px-4 py-3">
       <p className="text-xs font-bold text-coral-500">{label}</p>
       <p className="mt-1 text-xl font-black text-slate-900">{value}</p>
     </div>
@@ -112,10 +112,10 @@ function SpotList({
   spots: Spot[];
 }) {
   return (
-    <section className="rounded-lg border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
+    <section className="rounded-[16px] border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
       <h2 className="text-2xl font-black text-slate-900">{title}</h2>
       {spots.length === 0 ? (
-        <p className="mt-4 rounded-lg bg-mint-50 px-4 py-3 text-sm text-slate-600">
+        <p className="mt-4 rounded-[16px] bg-mint-50 px-4 py-3 text-sm text-slate-600">
           {empty}
         </p>
       ) : (
@@ -124,7 +124,7 @@ function SpotList({
             <Link
               key={spot.slug}
               href={`/spots/${spot.slug}`}
-              className="rounded-lg bg-sky-50 px-4 py-3 transition hover:bg-mint-50"
+              className="rounded-[16px] bg-sky-50 px-4 py-3 transition hover:bg-mint-50"
             >
               <span className="block font-black text-slate-900">{spot.name}</span>
               <span className="mt-1 block text-sm text-slate-600">{spot.duration}</span>

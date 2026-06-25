@@ -14,7 +14,7 @@ export default function VideoIdeasPage() {
         {ideas.map((idea, index) => (
           <article
             key={idea.title}
-            className="rounded-lg border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100"
+            className="rounded-[16px] border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100"
           >
             <p className="text-sm font-black text-coral-500">
               Idea {String(index + 1).padStart(2, "0")}
@@ -26,7 +26,7 @@ export default function VideoIdeasPage() {
               <InfoBlock label="开头 3 秒钩子" value={idea.hook} />
               <InfoBlock label="剪辑节奏" value={idea.rhythm} />
               <InfoBlock label="封面文案" value={idea.coverText} />
-              <div className="rounded-lg bg-mint-50 p-4">
+              <div className="rounded-[16px] bg-mint-50 p-4">
                 <p className="text-sm font-bold text-coral-500">拍摄画面</p>
                 <div className="mt-3 flex flex-wrap gap-2">
                   {idea.shots.map((shot) => (
@@ -49,7 +49,7 @@ export default function VideoIdeasPage() {
 
 function InfoBlock({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg bg-sky-50 p-4">
+    <div className="rounded-[16px] bg-sky-50 p-4">
       <p className="text-sm font-bold text-coral-500">{label}</p>
       <p className="mt-2 leading-7 text-slate-700">{value}</p>
     </div>

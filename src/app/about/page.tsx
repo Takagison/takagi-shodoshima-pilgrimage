@@ -8,7 +8,7 @@ export default function AboutPage() {
       intro="这是一个从零开始的小豆岛圣地巡礼网站 MVP，目标是先做出能发布、能积累内容、能逐步变现的作品。"
     >
       <div className="grid gap-6 lg:grid-cols-3">
-        <section className="rounded-lg border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100 lg:col-span-2">
+        <section className="rounded-[16px] border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100 lg:col-span-2">
           <h2 className="text-2xl font-black text-slate-900">项目定位</h2>
           <p className="mt-4 leading-8 text-slate-600">
             网站面向喜欢《擅长捉弄的高木同学》、准备去小豆岛旅行、想拍动画感照片的人。
@@ -18,7 +18,7 @@ export default function AboutPage() {
             后续可以逐步加入截图对比、真实地图、交通信息、住宿推荐、视频游记和付费 PDF 攻略。
           </p>
         </section>
-        <aside className="rounded-lg border border-sky-100 bg-mint-50 p-6">
+        <aside className="rounded-[16px] border border-sky-100 bg-mint-50 p-6">
           <h2 className="text-xl font-black text-slate-900">MVP 重点</h2>
           <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-700">
             <li>中文内容清晰，适合搜索和分享。</li>

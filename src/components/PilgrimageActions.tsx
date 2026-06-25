@@ -102,7 +102,7 @@ export function PilgrimageProgress({ spots }: { spots: SpotBrief[] }) {
   const completed = checkedCount === spots.length;
 
   return (
-    <section className="rounded-lg border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
+    <section className="rounded-[16px] border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="text-sm font-bold text-coral-500">巡礼进度</p>
@@ -121,7 +121,7 @@ export function PilgrimageProgress({ spots }: { spots: SpotBrief[] }) {
         />
       </div>
       {completed ? (
-        <div className="mt-5 rounded-lg bg-sand-100 px-4 py-3 text-sm font-bold text-slate-800">
+        <div className="mt-5 rounded-[16px] bg-sand-100 px-4 py-3 text-sm font-bold text-slate-800">
           恭喜解锁「小豆岛青春巡礼完成」徽章。下一步可以补拍截图对比和短视频素材。
         </div>
       ) : (

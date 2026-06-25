@@ -14,7 +14,7 @@ export default function FirstTimePage() {
         {guide.routes.map((route) => (
           <article
             key={route.from}
-            className="rounded-lg border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100"
+            className="rounded-[16px] border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100"
           >
             <p className="text-sm font-bold text-coral-500">出发地</p>
             <h2 className="mt-2 text-2xl font-black text-slate-900">
@@ -25,7 +25,7 @@ export default function FirstTimePage() {
               {route.steps.map((step, index) => (
                 <p
                   key={step}
-                  className="rounded-lg bg-sky-50 px-4 py-3 leading-7 text-slate-700"
+                  className="rounded-[16px] bg-sky-50 px-4 py-3 leading-7 text-slate-700"
                 >
                   <span className="mr-3 font-black text-sky-700">
                     {index + 1}
@@ -35,10 +35,10 @@ export default function FirstTimePage() {
               ))}
             </div>
             <div className="mt-5 grid gap-4 md:grid-cols-2">
-              <p className="rounded-lg bg-sand-100 px-4 py-3 text-sm leading-6 text-slate-700">
+              <p className="rounded-[16px] bg-sand-100 px-4 py-3 text-sm leading-6 text-slate-700">
                 预算说明：{route.budget}
               </p>
-              <p className="rounded-lg bg-mint-50 px-4 py-3 text-sm leading-6 text-slate-700">
+              <p className="rounded-[16px] bg-mint-50 px-4 py-3 text-sm leading-6 text-slate-700">
                 适合人群：{route.bestFor}
               </p>
             </div>
@@ -56,11 +56,11 @@ export default function FirstTimePage() {
 
 function InfoSection({ title, items }: { title: string; items: string[] }) {
   return (
-    <section className="rounded-lg border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100">
+    <section className="rounded-[16px] border border-sky-100 bg-white p-6 shadow-sm shadow-sky-100">
       <h2 className="text-2xl font-black text-slate-900">{title}</h2>
       <div className="mt-4 grid gap-3">
         {items.map((item) => (
-          <p key={item} className="rounded-lg bg-sky-50 px-4 py-3 leading-7 text-slate-700">
+          <p key={item} className="rounded-[16px] bg-sky-50 px-4 py-3 leading-7 text-slate-700">
             {item}
           </p>
         ))}

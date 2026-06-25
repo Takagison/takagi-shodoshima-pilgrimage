@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f7fcff;
+  --background: #f4f1eb;
   --foreground: #172033;
 }
 
@@ -22,7 +22,7 @@
   --color-coral-500: #f26f5c;
   --color-sand-100: #fff3cf;
   --color-sand-200: #f4d58b;
-  --font-sans: "Hiragino Sans", "Yu Gothic", "Microsoft YaHei", Arial, sans-serif;
+  --font-sans: "Inter", "Noto Sans SC", "Hiragino Sans", "Microsoft YaHei", Arial, sans-serif;
 }
 
 * {
@@ -35,13 +35,39 @@ html {
 
 body {
   min-height: 100vh;
-  background:
-    linear-gradient(180deg, rgba(247, 252, 255, 0.94), rgba(255, 255, 255, 0.96)),
-    repeating-linear-gradient(135deg, rgba(22, 134, 199, 0.05) 0 1px, transparent 1px 22px);
+  background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans);
 }
 
 a {
   text-decoration: none;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  main > section,
+  main article,
+  .fade-in {
+    animation: fade-in-up 0.72s ease both;
+  }
+
+  @supports (animation-timeline: view()) {
+    main > section,
+    main article,
+    .fade-in {
+      animation-timeline: view();
+      animation-range: entry 8% cover 28%;
+    }
+  }
 }

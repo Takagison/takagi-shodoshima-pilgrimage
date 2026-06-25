@@ -27,7 +27,7 @@ export function MapRouteHighlighter({
   );
 
   return (
-    <section className="mb-8 rounded-lg border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
+    <section className="mb-8 rounded-[16px] border border-sky-100 bg-white p-5 shadow-sm shadow-sky-100">
       <div className="grid gap-5 lg:grid-cols-[0.95fr_1.25fr]">
         <div>
           <p className="text-sm font-bold text-coral-500">Route Map</p>
@@ -45,7 +45,7 @@ export function MapRouteHighlighter({
                   key={route.id}
                   type="button"
                   onClick={() => setSelectedRouteId(route.id)}
-                  className={`rounded-lg border px-4 py-3 text-left transition ${
+                  className={`rounded-[16px] border px-4 py-3 text-left transition ${
                     active
                       ? "border-sky-600 bg-sky-50 shadow-sm"
                       : "border-sky-100 bg-white hover:bg-sky-50"
@@ -66,7 +66,7 @@ export function MapRouteHighlighter({
           </div>
         </div>
 
-        <div className="relative min-h-[360px] overflow-hidden rounded-lg bg-gradient-to-br from-sky-100 via-mint-50 to-sand-100">
+        <div className="relative min-h-[360px] overflow-hidden rounded-[16px] bg-gradient-to-br from-sky-100 via-mint-50 to-sand-100">
           <div className="absolute inset-x-[-10%] bottom-0 h-28 rounded-t-[50%] bg-sky-300/45" />
           <div className="absolute inset-x-[-8%] bottom-8 h-20 rounded-[50%] bg-white/45" />
           {spots.map((spot) => {
